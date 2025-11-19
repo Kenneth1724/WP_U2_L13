@@ -1,5 +1,4 @@
 body {
-<<<<<<< HEAD
     text-align:center;
     background-color:orangered;
     color:white;
@@ -8,9 +7,13 @@ body {
 
 a {
     text-decoration:none;
+    color:violet;
 }
 a:hover {
     text-decoration:underline;
+}
+a:visited {
+    color:violet;
 }
 
 .div1 {
@@ -45,12 +48,4 @@ a:hover {
     width:500px;
     margin-top:20px;
     margin-bottom:20px;
-=======
-    background-color:red;
-}
-
-.inside_div:active{
-  background-size: cover;
-  background-image: url("/resources/capybara.png");
->>>>>>> 12389f45f4d5680596b4c2426b399e2f2a66ebb1
 }

@@ -35,13 +35,10 @@ a:visited {
     box-shadow:0 0 5px black;
 }
 
-#title, #instructions {
-    margin:auto;
-}
-
 #title {
     border-bottom:white solid 1px;
     width:fit-content;
+    margin:auto;
 }
 
 #instructions {

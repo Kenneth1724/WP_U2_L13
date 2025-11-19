@@ -39,6 +39,8 @@ a:visited {
     border-bottom:white solid 1px;
     width:fit-content;
     margin:auto;
+    margin-top:20px;
+    margin-bottom:20px;
 }
 
 #instructions {

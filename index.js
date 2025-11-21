@@ -11,7 +11,8 @@ const pic = document.getElementsByClassName("inside_div")
 
 
 function user_clicks(){
-    
+    let rIndex = Math.floor(Math.random() * 10) + 1;
+    //console.log(rIndex)
     while(currentPic!=20) {
         pic[currentPic].onclick = function() {
             this.style.background=`url(${card[0]})`
@@ -19,5 +20,9 @@ function user_clicks(){
         currentPic++
     }
     //pic.style.background = `url(${card[0]})`
+    
+}
+
+function assignImages(pic, rIndex) {
     
 }

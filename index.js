@@ -12,10 +12,9 @@ const pic = document.getElementsByClassName("inside_div")
 
 function user_clicks(){
     
-    while(currentPic!=currentPic.length) {
-        console.log(pic[0])
+    while(currentPic!=20) {
         pic[currentPic].onclick = function() {
-            alert("test")
+            this.style.background=`url(${card[0]})`
         }
         currentPic++
     }

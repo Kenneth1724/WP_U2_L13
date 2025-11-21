@@ -22,7 +22,16 @@ a:visited {
     justify-content:center;
 }
 
+
+/*img{display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+}*/
 .inside_div {
+    display:flex;
     transition:all 0.25s;
     background-color:black;
     width:100px;
@@ -30,6 +39,7 @@ a:visited {
     margin:5px;
     border-radius:5px;
     cursor:pointer;
+    background-size:300px;
 }
 .inside_div:hover {
     box-shadow:0 0 5px black;

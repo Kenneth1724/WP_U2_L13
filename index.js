@@ -8,6 +8,7 @@ const card = ["resources/bear.png", "resources/football.png", "resources/leafs.p
     "resources/wind.png",
 ]
 let usedIndex = [];
+let twoSelected = [];
 let imageSrcs = ["","","","","","","","","","","","","","","","","","","",""];
 const pic = document.getElementsByClassName("inside_div");
 
